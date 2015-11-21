@@ -5,7 +5,7 @@
 * [O pacote net/http](http_basics/README.md)
 * [Criando um App Web Básico](creating_a_basic_web_app/README.md)
 * [Colocando em Produção](deployment/README.md)
-* [Roteando URL](url_routing/README.md)
+* [Roteamento de URL](url_routing/README.md)
 * [Middleware](middleware/README.md)
 * [Renderizando](rendering/README.md)
    * [JSON](rendering/json/README.md)
