@@ -7,7 +7,7 @@
 * [Colocando em Produção](deployment/README.md)
 * [Roteamento de URL](url_routing/README.md)
 * [Middleware](middleware/README.md)
-* [Renderizando](rendering/README.md)
+* [Renderização](rendering/README.md)
    * [JSON](rendering/json/README.md)
    * [Templates HTML](rendering/html/README.md)
    * [Usando o pacote render](rendering/render/README.md)
