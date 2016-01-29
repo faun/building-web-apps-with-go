@@ -1,7 +1,7 @@
 # Tips and Tricks
 
 ## Envolva um http.HandlerFunc com closure (contexto léxico)
-As vezes você quer passar dados para a inicialização de um http.HandlerFunc. Isto pode ser facilmente feito criando um `closure` de `http.HandlerFunc`:
+As vezes você quer passar dados na inicialização de um http.HandlerFunc. Isto pode ser facilmente feito criando um `closure` de `http.HandlerFunc`:
 
 ``` go
 func MyHandler(database *sql.DB) http.Handler {
