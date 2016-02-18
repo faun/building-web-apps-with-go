@@ -6,7 +6,7 @@ As vezes você quer passar dados na inicialização de um http.HandlerFunc. Isto
 ``` go
 func MyHandler(database *sql.DB) http.Handler {
   return http.HandlerFunc(func(rw http.ResponseWriter, r *http.Request) {
-    // you now have access to the *sql.DB here
+    // agora, você tem acesso ao *sql.DB aqui
   })
 }
 ```
@@ -18,7 +18,7 @@ Com frequência precisamos armazenar e recuperar dados que são específicos da 
 func MyHandler(w http.ResponseWriter, r *http.Request) {
     val := context.Get(r, "myKey")
 
-    // returns ("bar", true)
+    // retorna ("bar", true)
     val, ok := context.GetOk(r, "myKey")
     // ...
 
