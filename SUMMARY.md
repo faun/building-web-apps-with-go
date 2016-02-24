@@ -16,6 +16,7 @@
    * [End to End Testing](testing/end_to_end/README.md)
 * [Controllers](controllers/README.md)
 * [Databases](databases/README.md)
+* [API Endpoint](complete_example/README.md)
 * [Tips and Tricks](tips_and_tricks/README.md)
 * [Moving Forward](moving_forward/README.md)
 
