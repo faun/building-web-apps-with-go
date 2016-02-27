@@ -127,3 +127,19 @@ View your application in your browser:
 ``` bash
 heroku open
 ```
+
+NB: If `godep` is not in your `$PATH`, you may see the following error
+
+```bash
+bash: command not found: godep
+```
+
+In order to fix this, you must add `godep` to your `$PATH` by using the
+following command to add `godep` to your $PATH on shell initialization:
+
+```bash
+echo "export PATH=$PATH:$GOPATH/bin" >> ~/.bash_profile
+```
+
+(if you are using `zsh`, replace `~/.bash_profile` with `~/.zshrc` in the
+preceding command):
